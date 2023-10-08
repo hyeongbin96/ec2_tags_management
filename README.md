@@ -62,3 +62,6 @@ Inastance의 Tags[Key:Value] 수정 및 추가 시 ec2_tags_apply_aws.py에서 d
 새로운 태그 추가 시, 새로운 태그의 key값을 인덱스에 추가해주고 tag_keys 리스트에 추가 및 tag_values = row[]의 범위만 늘려주면 된다.
 
 row[5:10] = csv의 헤더 부분의 열(row) 범위
+
+! 필수
+실제 csv의 tag 칼럼과 순서와 소스코드의 tag 헤더 순서가 동일해야한다.
