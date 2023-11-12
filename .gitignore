@@ -159,6 +159,5 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-ec2_tags_management/instance_list
-ec2_tags_management/ec2_tags_out.csv
-ri_info_notice/db_info.py
+./instance_list
+./ec2_tags_out.csv
